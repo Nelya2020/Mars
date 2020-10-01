@@ -1,0 +1,36 @@
+body {
+	padding-left: 10px;
+	font-family: Arial, sans-serif;
+	background-color: #ff8b53;
+}
+
+h1 {
+	color: brown;
+}
+
+h2 {
+	color: brown;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+table {
+	border-collapse: collapse;
+	border: 2px solid brown;
+}
+
+th, td {
+	background: #b222;
+	border: 2px solid rgb(41, 6, 6);
+	padding: 10px;
+	text-align: center;
+}
+label {
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+b {
+	font-size: 8px;
+	font-weight: 400;
+}

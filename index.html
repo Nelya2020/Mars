@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="keywords" content="сайт-шутка, Марс, путёвка">
+	<meta name="description" content="Шуточный сайт о путёвках на Марс">
+	<title>Путёвка на Марс</title>
+	<!-- подключите внешнюю таблицу стилей CSS - style.css -->
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Путёвка на Марс</h1>
+	<p>Марс - одна из самых красивых и загодочных планет Солнечной системы. Почему бы не забежать "на огонёк"?</p>
+	<img src="mars.jpg" alt="Участок кратера Гусев. Снимок марсохода «Спирит»">
+	<!-- Добавьте параграф (пункт 4 в файле task-2.pdf) -->
+	<p>Ничего не знаешь о Марсе? Переходи по ссылке ниже</p>
+	<!-- Добавьте ссылку, которая будет открывать другой сайт в новой вкладке (пункт 5) -->
+	<a href="https://ru.wikipedia.org/wiki/Марс" target="_blank">Узнать о Марсе</a><br>
+	<a href="https://uk.wikipedia.org/wiki/" target="blank">Википедия</a><br>
+	<a href="https://spaceplace.nasa.gov/all-about-mars/en/" target="blank">NASA</a>
+	<h2>Пакеты путёвок</h2>
+	<!-- Добавьте таблицу (пункт 7) -->
+	<table>
+		<tr>
+			<th>Тип отдыха</th>
+			<th>Приблизительная цена</th>
+		</tr>
+		<tr>
+			<td>Только перелёт</td>
+			<td>1 млн</td>
+		</tr>
+		<tr>
+			<td>Перелёт + проживание </td>
+			<td>100 млн</td>
+		</tr>
+		<tr>
+			<td>All inclusive</td>
+			<td>1 млрд </td>
+		</tr>
+	</table>
+	<h2>Выбор тура</h2>
+	<p>Интересно? Отправляйте данные, корабль уже отправляется</p>
+	<form method="POST">      <!-- добавить метод POST -->
+		<!-- Добавьте поле для ввода текста с подсказкой "Ваше имя" (пункт 10) -->
+		<input type="text" name="user_name" placeholder="Ваше имя">
+		<label>                                              
+			<!-- Добавьте радиокнопку (пункт 10) -->
+			<input type="radio" name=" resort" value="flight-only"><span>Только перелёт</span>         
+		</label>
+		<label>
+			<!-- Добавьте радиокнопку (пункт 10) -->
+			<input type="radio" name=" resort" value="flight-accommodation"><span>Перелёт + проживание</span>
+		</label>
+		<label>
+			<!-- Добавьте радиокнопку (пункт 10) -->
+			<input type="radio" name=" resort" value="All inclusive "><span>All inclusive</span>
+		</label>
+		<!-- Добавьте кнопку "Отправить" (пункт 10) -->
+		<button>Отправить</button>
+	</form>
+	<p>Для нас Ваш комфорт и безопасность - прежде всего!</p>
+	<b>*Администрация не несёт никакой ответственности</b>
+</body>
+</html>
